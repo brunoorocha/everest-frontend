@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+    color: #2c3e50;  
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+input, 
+textarea, 
+select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.button {    
+    background-color: transparent;
+    border: none;
+    color: #FF5245;   
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 0px;
+}
+
+.remove-button {    
+    color: #8E8E93;       
+    padding: 0px;
+}
+
+.content {
+    margin: 64px 0px 96px 0px;  
+}
+
+.container {
+    display: flex;      
+    flex-direction: column;  
+    justify-content: center;   
+    align-self: center; 
+    max-width: 960px;
+    width: 100%;
+    padding: 0px 16px;
+    box-sizing: border-box; 
+}
+
+.row {
+    display: flex;
+}
+
+.row .column-1 {
+    flex-grow: 1;
+    margin-left: 16px;
+}
+
+.row .column-6 {
+    flex-grow: 6;
+}
